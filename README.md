@@ -7,7 +7,7 @@ This is my attempt in creating my first website using HTML, CSS, and JavaScript.
 I hope you enjoy my simple landing page!
 
 # Live Preview
-Link: https://naapi-yupi.github.io/landing-page/
+Link: 
 
 # Additional Info
 

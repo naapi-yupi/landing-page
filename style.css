@@ -50,7 +50,6 @@
 #main-text {
     display: flex;
     flex: 1;
-
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
@@ -135,7 +134,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 7px;
+    border-radius: 8px;
     justify-content: space-around;
     gap: 220px;
     flex-wrap: wrap;
