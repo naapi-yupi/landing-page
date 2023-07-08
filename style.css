@@ -144,13 +144,11 @@
 .call-action>div h3 {
     color: #f9faf8;
     margin-bottom: 0px;
-    border: 8px solid red;
 }
 
 .call-action>div p {
     color: #e5e7eb;
     margin-top: 0px;
-    border: 8px solid red;
 }
 
 .call-action>a {
