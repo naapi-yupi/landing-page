@@ -1,0 +1,132 @@
+*{
+    font-family:Roboto, sans-serif;
+}
+
+.header{
+    height: auto;
+    padding: 16px 70px 80px 70px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;  
+}
+.header > .header-logo{
+    display: flex;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 800;
+}
+.header > .header-link a{
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+.header > .header-link{
+    display: flex;
+    gap: 15px;
+    padding-top: 5px;
+}
+
+.hero{
+    height: auto;
+    padding: 16px 70px 115px 70px;
+    background-color: #1f2937;
+    display: flex;
+}
+#main-text{
+    display:flex ;
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    width: 450px;
+}
+#secondary-text{
+    display:flex ;
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 450px;
+    margin-bottom: 20px;
+}
+.text > a{
+    text-decoration: none;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    font-weight: 700;
+    font-size: 19px;
+    padding: 8px 35px 8px 35px;
+    border-radius: 7px;
+}
+.hero > img{
+    height: 250px;
+    width: 450px;
+    padding-left: 100px;
+}
+.info-text{
+    font-size: 48px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    padding: 40px;
+}
+.box-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 180px;
+}
+.box-type div{
+    border:4px solid #3882f6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+.box-type > .box-info p{
+    text-align: center;
+    padding-top: 150px;
+}
+.qoute-section{
+    background-color:#e5e7eb;
+    padding: 140px;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+.qoute-section > div{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: right;
+}
+.call-action{
+    background-color: #3882f6; 
+    margin: 100px;
+    display: flex;
+    border-radius: 7px;
+    justify-content: space-between;
+    padding: 25px 120px 25px 70px;
+}
+
+.call-action > div h3{
+    color: #f9faf8;
+    margin-bottom: 0px;
+}
+.call-action > div p{
+    color: #e5e7eb;
+    margin-top: 0px;
+}
+.call-action > a{
+    text-decoration: none;
+    align-self: center;
+    border:3px solid #f9faf8;
+    font-weight: bold;
+    color: #e5e7eb;
+    border-radius: 7px;
+    padding: 5px 25px 5px 25px;
+}
+.footer{
+    background-color: #1f2937;
+    padding: 30px 200px 30px 200px;
+    text-align: center;
+    color: #f9faf8;
+}
