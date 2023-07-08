@@ -1,52 +1,72 @@
-*{
-    font-family:Roboto, sans-serif;
+* {
+    font-family: Roboto, sans-serif;
 }
 
-.header{
+.header {
     height: auto;
-    padding: 16px 70px 80px 70px;
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;  
+    align-items: center;
+    justify-content: center;
+    padding: 15px 75px 15px 75px;
+    gap: 25px;
 }
-.header > .header-logo{
-    display: flex;
+
+.header>.header-logo {
+    text-align: center;
+    flex: 1;
     color: #f9faf8;
     font-size: 24px;
     font-weight: 800;
 }
-.header > .header-link a{
+
+.header>.header-link a {
     color: #e5e7eb;
     text-decoration: none;
     font-size: 18px;
 }
-.header > .header-link{
+
+.header>.header-link {
     display: flex;
+    flex: 1;
+    justify-content: center;
     gap: 15px;
-    padding-top: 5px;
+    padding-top: 15px;
+    padding-right: 40px;
+    flex-wrap: wrap;
 }
 
-.hero{
+.hero {
     height: auto;
-    padding: 16px 70px 115px 70px;
+    padding: 76px 70px 115px 70px;
     background-color: #1f2937;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
 }
-#main-text{
-    display:flex ;
+
+#main-text {
+    display: flex;
+    flex: 1;
+
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
     width: 450px;
 }
-#secondary-text{
-    display:flex ;
+
+#secondary-text {
+    display: flex;
+    flex: 1;
     font-size: 18px;
     color: #e5e7eb;
     width: 450px;
     margin-bottom: 20px;
 }
-.text > a{
+
+.text>a {
     text-decoration: none;
     color: #e5e7eb;
     background-color: #3882f6;
@@ -55,76 +75,95 @@
     padding: 8px 35px 8px 35px;
     border-radius: 7px;
 }
-.hero > img{
+
+.hero>img {
     height: 250px;
     width: 450px;
-    padding-left: 100px;
 }
-.info-text{
+
+.info-text {
     font-size: 48px;
     font-weight: 800;
     color: #1f2937;
     text-align: center;
     padding: 40px;
 }
-.box-type{
+
+.box-type {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 60px;
     margin-bottom: 180px;
+    flex-wrap: wrap;
 }
-.box-type div{
-    border:4px solid #3882f6;
+
+.box-type div {
+    border: 4px solid #3882f6;
     border-radius: 10px;
     height: 150px;
     width: 150px;
+    margin: 15px;
 }
-.box-type > .box-info p{
+
+.box-type>.box-info p {
     text-align: center;
     padding-top: 150px;
 }
-.qoute-section{
-    background-color:#e5e7eb;
+
+.qoute-section {
+    background-color: #e5e7eb;
     padding: 140px;
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
     color: #1f2937;
+    text-align: justify;
 }
-.qoute-section > div{
+
+.qoute-section>div {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     text-align: right;
-}
-.call-action{
-    background-color: #3882f6; 
-    margin: 100px;
-    display: flex;
-    border-radius: 7px;
-    justify-content: space-between;
-    padding: 25px 120px 25px 70px;
+
 }
 
-.call-action > div h3{
+.call-action {
+    background-color: #3882f6;
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    justify-content: space-around;
+    gap: 220px;
+    flex-wrap: wrap;
+}
+
+.call-action>div h3 {
     color: #f9faf8;
     margin-bottom: 0px;
+    border: 8px solid red;
 }
-.call-action > div p{
+
+.call-action>div p {
     color: #e5e7eb;
     margin-top: 0px;
+    border: 8px solid red;
 }
-.call-action > a{
+
+.call-action>a {
     text-decoration: none;
     align-self: center;
-    border:3px solid #f9faf8;
+    border: 3px solid #f9faf8;
     font-weight: bold;
     color: #e5e7eb;
     border-radius: 7px;
     padding: 5px 25px 5px 25px;
 }
-.footer{
+
+.footer {
     background-color: #1f2937;
     padding: 30px 200px 30px 200px;
     text-align: center;
